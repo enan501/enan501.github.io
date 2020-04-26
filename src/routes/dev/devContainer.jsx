@@ -1,10 +1,10 @@
 import React from 'react';
-import devPresenter from './devPresenter';
+import DevPresenter from './DevPresenter';
 
-function devContainer() {
+function DevContainer() {
   return (
-    <devPresenter/>
+    <DevPresenter/>
   );
 }
 
-export default devContainer;
+export default DevContainer;

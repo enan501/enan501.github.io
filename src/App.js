@@ -1,9 +1,9 @@
 import React from 'react';
-import devContainer from './routes/dev/devContainer';
+import DevContainer from './routes/dev/DevContainer';
 
 function App() {
   return (
-    <devContainer/>
+    <DevContainer/>
   );
 }
 

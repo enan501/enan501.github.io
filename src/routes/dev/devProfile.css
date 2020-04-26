@@ -1,0 +1,12 @@
+.profile{
+    padding: 8rem;
+}
+.left-contents{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+.right-contents{
+    display: inline-block;
+    width: 50%;
+}

@@ -1,0 +1,12 @@
+.main {
+    padding: 16rem;
+    background:linear-gradient(green,lightgreen);
+    color: whitesmoke;   
+};
+.container {
+    display: inline-block;
+    margin: 0 auto; 
+}
+.container * {
+    text-align: center;
+}
