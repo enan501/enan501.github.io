@@ -9,7 +9,7 @@ class DevMain extends Component {
         <div className="main-filter"></div>
         <div className="main-container">
           <h1>DEV_ENAN</h1>
-          <h4>Always develop what I like, and what people need.</h4>
+          <h4>Always develop what I liken, and what people need.</h4>
           <p>This is a simple portfolio practice, and I'm upgrading frequently.</p>
           <Link to="profile" smooth={true}>
             <div className="btn_wrapper">
