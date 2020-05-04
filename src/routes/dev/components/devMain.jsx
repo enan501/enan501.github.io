@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
+import {Link} from 'react-scroll'
 import '../devMain.css'
+import mainBackground from '../../../images/main_bg.png'
 class DevMain extends Component {
   render() {
     return (
-  
       <div className="main">
-        <div className="container">
+        <div className="main-filter"></div>
+        <div className="main-container">
           <h1>DEV_ENAN</h1>
-          <p>This is Simple Portfolio practice, and I didn't choose what I shoud write here.</p>
-          <p>So I wrote something here in english becuase it looks quite decent.</p>
-          <div className="btn_wrapper">
-            <button>Read more</button>
+          <h4>Always develop what I like, and what people need.</h4>
+          <p>This is a simple portfolio practice, and I'm upgrading frequently.</p>
+          <Link to="profile" smooth={true}>
+            <div className="btn_wrapper">
+              <button>Read more</button>
+            </div>
+          </Link>
           </div>
-        </div>
       </div>
     );
   }

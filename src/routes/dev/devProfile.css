@@ -1,12 +1,20 @@
 .profile{
-    padding: 8rem;
+    padding: 10%;
 }
 .left-contents{
     display: inline-block;
-    width: 50%;
+    width: 45%;
+    padding-right: 5%;
     vertical-align: top;
+}
+.profile-image {
+    display: block;
+    width: 16rem;
+    margin: 0 auto;
+    border-radius: 8rem;
 }
 .right-contents{
     display: inline-block;
-    width: 50%;
+    width: 45%;
+    padding-left: 5%;
 }

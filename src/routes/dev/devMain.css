@@ -1,12 +1,29 @@
 .main {
-    padding: 16rem;
-    background:linear-gradient(green,lightgreen);
     color: whitesmoke;   
-};
-.container {
-    display: inline-block;
-    margin: 0 auto; 
+    background-image: url('../../images/main_bg.png');
+    background-size: cover;
+    height: 52rem;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
 }
-.container * {
+.main-filter {
+    position: absolute;
+    background-color: #000000;
+    opacity: 50%;
+    width: 100%;
+    height: 52rem;
+    float: left;
+}
+.main-container {
+    width: 100%;
+    height: 52rem;
+    position: absolute;
+    float: left;
+    margin: 28rem 0 0 0 ;
+    color: white;
+}
+.main-container * {
     text-align: center;
 }
