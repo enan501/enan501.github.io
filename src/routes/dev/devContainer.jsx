@@ -1,5 +1,5 @@
 import React from 'react';
-import DevPresenter from './DevPresenter';
+import DevPresenter from './devPresenter';
 
 function DevContainer() {
   return (

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../devSkill.css'
-import SkillComponent from './SkillComponent';
+import SkillComponent from './skillComponent';
 
 const skills = [
     {

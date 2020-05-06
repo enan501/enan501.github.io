@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ProjectComponent from './ProjectComponent';
+import ProjectComponent from './projectComponent';
 import '../devProjects.css'
 
 // projects = Oasis, RoadLine, 자율주차, 성적알림, 개이득, 482, 알고리즘

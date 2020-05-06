@@ -1,10 +1,10 @@
 import React from 'react';
-import DevMain from './components/DevMain';
-import DevProfile from './components/DevProfile';
-import DevNavigator from './components/DevNavigator';
-import DevSkill from './components/DevSkill';
-import DevProjects from './components/DevProjects';
-import DevContact from './components/DevContact';
+import DevMain from './components/devMain';
+import DevProfile from './components/devProfile';
+import DevNavigator from './components/devNavigator';
+import DevSkill from './components/devSkill';
+import DevProjects from './components/devProjects';
+import DevContact from './components/devContact';
 import {Element} from 'react-scroll'
 import './dev.css'
 
