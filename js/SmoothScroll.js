@@ -292,7 +292,7 @@ function wheel(event) {
     }
     
     scrollArray(overflowing, -deltaX, -deltaY);
-    // event.preventDefault();
+    event.preventDefault();
 }
 
 /**
@@ -515,9 +515,9 @@ var isChrome = /chrome/i.test(window.navigator.userAgent);
 var isMouseWheelSupported = 'onmousewheel' in document; 
 
 if (isMouseWheelSupported && isChrome) {
-	addEvent("mousedown", mousedown);
-	addEvent("mousewheel", wheel);
-	addEvent("load", init);
+	addEvent("mousedown", mousedown, {passive: false});
+	addEvent("mousewheel", wheel, {passive: false});
+	addEvent("load", init, {passive: false});
 };
 
 })();
